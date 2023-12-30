@@ -15,8 +15,9 @@ body {
     height: 80%;
     border: 4px solid black;
     display: grid;
-    grid-template-columns: repeat(2, 1fr) 3fr;
-    grid-template-rows: repeat(2, 1fr);
+    /* grid-template-columns: repeat(2, 1fr) 3fr;
+    grid-template-rows: repeat(2, 1fr); */
+    grid-template: repeat(2, 1fr) / repeat(2, 1fr) 3fr;
 }
 
 .box {
