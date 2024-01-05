@@ -16,12 +16,12 @@ body {
     height: 80%;
     border: 4px solid black;
     display: grid;
-    grid-template: repeat(4, 1fr) / repeat(5, 1fr);
+    grid-template: repeat(4, 1fr) / repeat(4, 1fr);
     grid-template-areas:
-        "header header header header header"
-        "navbar article article article ads"
-        "navbar article article article ads"
-        "navbar footer footer footer footer";
+        "one one one one"
+        "two three three four"
+        "two five five six"
+        "seven seven eight six";
     gap: 10px;
 }
 
@@ -29,22 +29,34 @@ body {
     text-align: center;
 }
 
-#header {
-    grid-area: header;
+#one {
+    grid-area: one;
 }
 
-#nav {
-    grid-area: navbar;
+#two {
+    grid-area: two;
 }
 
-#article {
-    grid-area: article;
+#three {
+    grid-area: three;
 }
 
-#ads {
-    grid-area: ads;
+#four {
+    grid-area: four;
 }
 
-#footer {
-    grid-area: footer;
+#five {
+    grid-area: five;
+}
+
+#six {
+    grid-area: six;
+}
+
+#seven {
+    grid-area: seven;
+}
+
+#eight {
+    grid-area: eight;
 }
