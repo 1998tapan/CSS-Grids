@@ -18,7 +18,7 @@ body {
     display: grid;
     grid-template: repeat(4, 1fr) / repeat(4, 1fr);
     grid-template-areas:
-        "one one one one"
+        "one one one ."
         "two three three four"
         "two five five six"
         "seven seven eight six";
